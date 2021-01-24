@@ -42,3 +42,5 @@ lowest = intcheck("Low Number: ")
 highest = intcheck("High Number: ", lowest + 1)
 rounds = intcheck("Rounds: ", 1)
 guess = intcheck("Guess: ", lowest, highest)
+name = input("your name: ")
+
